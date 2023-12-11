@@ -9,3 +9,5 @@ class TimeStampedModel(models.Model):
 
     class Meta:
         abstract = True
+
+# abstract models do not get added to database
